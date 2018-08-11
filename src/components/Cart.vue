@@ -11,7 +11,7 @@
 		<hr>
 		<div v-if="empty"
 			 class="alert alert-warning">
-			Your cart is empty
+			Ваша корзина пуста
 		</div>
 		<template v-else>
 			<table class="table table-bordered table-hover">
