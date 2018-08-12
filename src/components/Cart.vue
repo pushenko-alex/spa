@@ -39,7 +39,7 @@
 								<span>x</span>
 								 <input type="text" 
 										:value="' ' + product.count"
-										@change="onInput($event, product)"
+										@input="onInput($event, product)"
 										>
 						</td>
 						<td style="font-size:18px">{{ product.sum }} руб.</td>
